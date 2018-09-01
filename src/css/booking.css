@@ -1,0 +1,172 @@
+.booking-cnt .bus-blk{
+    margin-bottom: 20px;
+}
+.booking-cnt .reg-btn{
+    margin-top: 32px;
+}
+.booking-cnt .bus-dtls .jrny-dtls form label{
+    font-size: 14px;
+    margin-right: 10px;
+}
+.booking-cnt .bus-dtls .jrny-dtls{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.booking-cnt .bus-blk .bus-dtls{
+    border: 1px solid #ccc;
+    border-top: 0px;
+}
+.booking-cnt .bus-blk .bus-dtls > div:not(:first-child){
+    padding: 20px 20px 20px 10px;
+}
+.booking-cnt .bus-blk .bus-dtls .bus-layout .bus-div{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 285px;
+}
+.booking-cnt .bus-blk .bus-dtls .bus-layout .bus-div > span{
+    display: inline-block;
+    height: 80px;
+    vertical-align: top;
+}
+.booking-cnt .bus-blk .bus-dtls .bus-layout .bus-frnt{
+    width: 20%;
+}
+.booking-cnt .bus-blk .bus-dtls .bus-layout .bus-back{
+    width: 80%;
+}
+.booking-cnt .bus-blk .bus-dtls .bus-layout .bus-back .bus-seats{
+    display: inline-block;
+    height: 26px;
+    width: 26px;
+    border: 1px solid #ccc;
+    margin: 4px;
+    cursor: pointer;
+}
+.selected{
+    background-color: green;
+    opacity: 0.3;
+
+}
+.booking-cnt .bus-blk .bus-lst div{
+    border: 1px solid #ccc;
+    background-color: #f7f5f5;
+    padding: 5px 15px;
+}
+.booking-cnt .bus-blk .bus-lst div span{
+    display: inline-block;
+    width: 100%;
+}
+.booking-cnt .bus-blk .bus-lst .sv-no{
+    font-size: 20px;
+    font-weight: bold;
+}
+.booking-cnt .bus-blk .bus-lst .bs-tm span:first-child{
+    font-size: 17px;
+}
+.booking-cnt .bus-blk .bus-lst .bs-tm span:nth-child(2){
+    font-size: 14px;
+    color: #847f7f;
+}
+.booking-cnt .bus-blk .layout-btn{
+    width: 90px !important;
+    font-size: 13px;
+    margin: auto;
+    border: 1px solid black;
+    padding: 2px;
+    text-align: center;
+    background-color: #3f51b5;
+    color: white;
+    cursor: pointer;
+}
+.booking-cnt .bus-blk .dsbld-btn{
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+.info-row{
+    margin-top: 30px;
+}
+.info-row > span{
+    display: inline-block;
+    width:30%;
+    margin-right: 5px;
+    font-size: 14px;
+}
+.info-row .iblk{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+}
+.blk{
+    background-color: #ccc;
+    cursor: default !important;
+}
+.available{
+    border: 1px solid #ccc;
+}
+.wmn{
+    background-color: pink;
+}
+.bus-form div input{
+    margin:5px 5px 0px 5px;
+}
+.bus-form div span, .booking-cnt .bus-dtls .jrny-dtls form .bk-err{
+    display: block;
+    font-size: 12px;
+    margin-left: 65px;
+}
+.booking-cnt .bus-dtls .jrny-dtls form .bk-err{
+    margin-left: 97px;
+}
+.booking-cnt .bus-dtls .jrny-dtls{
+    padding: 20px 10px 0px;
+    border-bottom: 1px solid #ccc;
+}
+.bus-form div label{
+    font-size: 14px;
+    width: 60px;
+    margin-bottom: 0px;
+}
+.car-steer{
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    margin: 4px;
+    background: url('../images/icon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+    opacity: 0.6;
+}
+.auto-cmp{
+    position: absolute;
+    left: 119px;
+    border: 1px solid #ccc;
+    border-top: 0px;
+    top: 30px;
+    background-color: #fff;
+    z-index: 11;
+    width: 17%;
+    box-shadow: 0px 1px 8px 0px;
+}
+.auto-cmp span{
+    width: 100%;
+    display: inline-block;
+    font-size: 13px;
+    padding-left: 5px;
+}
+@media only screen and (max-width: 768px){
+    .booking-cnt .reg-btn{
+        margin-top: 0px;
+    }
+}
+@media only screen and (min-width: 768px){
+    .booking-cnt .bus-blk .bus-lst div:not(:first-child){
+        border-left: 0px;
+    }
+}

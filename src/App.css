@@ -1,0 +1,79 @@
+html,body{
+  -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Standard syntax */
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.app-hdr{
+  padding: 10px 15px;
+  background-color: #ccc;
+}
+.app-hdr div{
+  display: inline-block;
+}
+.app-hdr .hdr-title{
+  font-size: 20px;
+  margin-left: 4%;
+}
+.app-hdr div:first-child{
+  width: 76%;
+  font-size: 30px;
+  vertical-align: top;
+}
+.app-hdr .hdr-data{
+  width: 20%;
+}
+.app-hdr .hdr-data .usr-name{
+  margin-right: 15px;
+}
+.app-hdr .hdr-data .log-out{
+  display: inline-block;
+  padding: 5px;
+  background-color: #3f51b5;
+  color: white;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.app-hdr .hdr-menu{
+  width: 96%;
+  margin-left: 4%;
+}
+
+.app-hdr .hdr-menu span{
+  display: inline-block;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+
+.hdr-border{
+  border-bottom: 2px solid black;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

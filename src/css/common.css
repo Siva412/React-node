@@ -1,0 +1,141 @@
+.m-btm0{
+    margin-bottom: 0px !important;
+  }
+  .m-top0{
+    margin-top: 0px !important;
+  }
+  .mg-btm6{
+    margin-bottom: 6px !important;
+  }
+  .text-center{
+    text-align: center;
+  }
+  .hdr-div{
+    background-color: #3f51b5;
+    color: white;
+  }
+  .text-right{
+    text-align: right;
+  }
+  .parent-container{
+    margin: 10px auto 30px;
+  }
+  .form-div{
+    padding: 20px;
+  }
+  .reg-form {
+    margin-bottom: 15px;
+  }
+  .reg-form .form-group{
+    margin-bottom: 0px;
+  }
+  .reg-form .form-group label{
+    font-size: 14px;
+  }
+  .reg-form .form-group input{
+    margin-top: 0px;
+  }
+  .form-err{
+    color: red;
+    min-height: 19px;
+  }
+  .display-blk{
+    display: block;
+  }
+  .reg-btn{
+    margin-right: 10px !important; 
+  }
+  
+  
+  /* Dashboard */
+  .dashboard-cnt{
+    margin: 10px 12% 30px;
+  }
+  .dashboard-cnt .dash-bar{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+  .hire-div{
+    margin-bottom: 20px; 
+  }
+  .edit-row div.col-md-4{
+    margin-bottom: 15px;
+  }
+  .edit-row .edit-span{
+    display: block;
+    font-size: 13px;
+    color: #aaa;
+  }
+  .react-datepicker-wrapper{
+    position: relative;
+  }
+  .react-datepicker-wrapper, .react-datepicker__input-container{
+    width: 100%;
+  }
+  .number-dot{
+    display: inline-block;
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+      background-color: white;
+      color: black;
+      text-align: center;
+  }
+  .ack-cnt, .history-cnt{
+    width: 78%;
+    margin: 20px auto;
+  }
+  .ack-cnt .container .row{
+    padding: 10px;
+    font-size: 15px;
+  }
+  .ack-cnt .container .row div:nth-child(odd){
+    font-weight: bold;
+  }
+  .history-cnt .tb-head{
+    padding: 6px 0px;
+    font-weight: bold;
+  }
+  .history-cnt .container .tb-cell{
+    padding: 6px 0px;
+    border-bottom: 1px solid #dad6d6;
+  }
+  .history-cnt .container .tb-cell .tb-mob div{
+    height: 100%;
+  }
+  .history-cnt .container .tb-cell .tb-web div, .history-cnt .container .tb-cell .tb-mob div span{
+    word-wrap: break-word;
+    vertical-align: middle;
+  }
+  .history-cnt .container .tb-cell .mob-head, .history-cnt .container .tb-cell .mob-cell, .history-cnt .container .tb-mob{
+    display: none;
+  }
+  .history-cnt .container .tb-cell .Confirmed{
+    color: green;
+  }
+  .history-cnt .container .tb-cell .Rejected{
+    color: red;
+  }
+  .history-cnt .container .tb-cell .Booked{
+    color: blue;
+  }
+  @media only screen and (max-width: 768px){
+    .history-cnt .container .tb-mob{
+      display: block;
+      padding-left: 10px;
+    }
+    .history-cnt .tb-head, .history-cnt .container .tb-web{
+      display: none;
+    }
+    .history-cnt .container .tb-cell .mob-head, .history-cnt .container .tb-cell .mob-cell{
+      display: inline-block;
+      font-size: 14px;
+    }
+    .history-cnt .container .tb-cell .mob-head{
+      width: 40%;
+      font-weight: bold;
+    }
+    .history-cnt .container .tb-cell .mob-cell{
+      width: 60%;
+    }
+  }

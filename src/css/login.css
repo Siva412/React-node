@@ -1,0 +1,91 @@
+body {
+	background: #eee !important;	
+}
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+  }
+  
+  .App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+  }
+  
+  .App-title {
+    font-size: 1.5em;
+  }
+  
+  .App-intro {
+    font-size: large;
+  }
+
+
+.sliderCarousel{
+
+  margin-right: 40%;
+}
+.form-signin {
+  /* max-width: 380px; */
+  height:605px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #949292;
+ 
+  border: 1px solid  rgba(60, 47, 51, 0.36);  }
+
+.form-control {
+	  position: relative;
+      font-size: 16px;
+      width:98%;
+	  /* height: auto; */
+	  padding: 10px;	
+}
+.errtext{
+    text-align: left;
+    color:red;
+}
+input[type="text"] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  input[type="password"] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+  }
+  .heading {
+ text-align: center;
+ margin-top: 45px;
+ margin-bottom: 20px;
+  }
+  .mg-btm10{
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .GmailButton{
+    margin-top: 10px;
+  }
+  .facebook-btn, .gmail-btn{
+    width: 100%;
+    color: white;
+    height: 36px;
+  }
+  .facebook-btn{
+    background-color: #4c69ba;
+  }
+  .gmail-btn{
+    background-color: #d14836;
+  }
+  carousel-item{
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out left;
+  }
+  
+

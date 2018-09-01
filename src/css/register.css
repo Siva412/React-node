@@ -1,0 +1,63 @@
+.form-control {
+    position: relative;
+    font-size: 16px;
+    width:98%;
+    height: auto;
+    padding: 10px;	
+}
+.errtext{
+  text-align: left;
+  color:red;
+}
+input[type="text"] {
+  margin-bottom: 10px;  
+}
+input{
+    margin-bottom: 10px;  
+}
+input[type="number"]{
+    margin-bottom: 10px;  
+}
+.wrapper {	
+	padding: 80px 0px;
+}
+
+.form-signin {
+  max-width: 380px;
+  height: auto;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.1);  }
+
+.form-control {
+	  position: relative;
+      font-size: 16px;
+      width:98%;
+	  height: auto;
+	  padding: 10px;	
+}
+.errtext{
+    text-align: left;
+    color:red;
+}
+input[type="text"] {
+    margin-bottom: -1px;
+    margin-bottom: 10px;
+  }
+
+  input[type="password"] {
+    margin-bottom: 10px;
+   
+  }
+  .heading {
+ text-align: center
+  }
+  .mg-btm10{
+    margin-bottom: 10px !important;
+  }
+  .bck-img{
+      background: url('../images/bus1.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+  }

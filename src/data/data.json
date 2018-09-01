@@ -1,0 +1,544 @@
+{
+  "responseData": {
+    "loginData": [
+      {
+        "id": 1,
+        "userName": "admin",
+        "pwd": "admin"
+      },
+      {
+        "id": 2,
+        "userName": "admin1",
+        "pwd": "admin"
+      },
+      {
+        "id": 3,
+        "userName": "admin2",
+        "pwd": "admin"
+      },
+      {
+        "id": 4,
+        "userName": "test",
+        "pwd": "test"
+      },
+      {
+        "id": 5,
+        "userName": "hello",
+        "pwd": "hell"
+      },
+      {
+        "id": 6,
+        "userName": "Siva Karthik",
+        "pwd": "NA"
+      },
+      {
+        "id": 7,
+        "userName": "Siva Karthik",
+        "pwd": "NA"
+      },
+      {
+        "id": 8,
+        "userName": "Siva Karthik",
+        "pwd": "NA"
+      }
+    ],
+    "historyData": [
+      {
+        "id": 1,
+        "userName": "admin",
+        "data": [
+          {
+            "refNo": "854545454",
+            "bkngDate": "02-07-2018",
+            "source": "Hyderabad",
+            "dest": "Delhi",
+            "status": "Confirmed"
+          },
+          {
+            "refNo": "563232323",
+            "bkngDate": "13-08-2018",
+            "source": "Hyderabad",
+            "dest": "Mumbai",
+            "status": "Rejected"
+          },
+          {
+            "refNo": "874525555",
+            "bkngDate": "06-08-2018",
+            "source": "Hyderabad",
+            "dest": "Goa",
+            "status": "Pending"
+          },
+          {
+            "refNo": "8655677775",
+            "bkngDate": "29-08-2018",
+            "source": "test",
+            "dest": "test",
+            "status": "Booked",
+            "seatList": [
+              "11"
+            ],
+            "seviceNo": "8965"
+          },
+          {
+            "refNo": "8655677775",
+            "bkngDate": "29-08-2018",
+            "source": "sdf",
+            "dest": "sdf",
+            "status": "Booked",
+            "seatList": [
+              "12"
+            ],
+            "seviceNo": "8965"
+          },
+          {
+            "refNo": "8655677775",
+            "bkngDate": "29-08-2018",
+            "source": "sdf",
+            "dest": "sdf",
+            "status": "Booked",
+            "seatList": [
+              "12"
+            ],
+            "seviceNo": "8525"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "userName": "admin1",
+        "data": [
+          {
+            "refNo": "854545454",
+            "bkngDate": "02-07-2018",
+            "source": "Hyderabad",
+            "dest": "Delhi",
+            "status": "Confirmed"
+          },
+          {
+            "refNo": "563232323",
+            "bkngDate": "13-08-2018",
+            "source": "Hyderabad",
+            "dest": "Mumbai",
+            "status": "Rejected"
+          },
+          {
+            "refNo": "874525555",
+            "bkngDate": "06-08-2018",
+            "source": "Hyderabad",
+            "dest": "Goa",
+            "status": "Pending"
+          }
+        ]
+      }
+    ],
+    "busData": {
+      "busList": [
+        {
+          "id": "1",
+          "svNo": "8525",
+          "route": "HYD - VJA",
+          "time": "04:30 - 08:30",
+          "duration": "5hrs",
+          "busType": "Volvo AC",
+          "via": "abc",
+          "seats": 23,
+          "window": 2,
+          "price": 500,
+          "bpts": [
+            "HYD",
+            "HCD",
+            "ABJ",
+            "BCD",
+            "CDE",
+            "GDH",
+            "MND"
+          ],
+          "dpts": [
+            "HYD",
+            "VJA",
+            "CDE",
+            "ABJ",
+            "BCD",
+            "CFE",
+            "GDH",
+            "MND"
+          ],
+          "seatList": [
+            {
+              "id": "1",
+              "ctgry": "blk"
+            },
+            {
+              "id": "2",
+              "ctgry": "blk"
+            },
+            {
+              "id": "3",
+              "ctgry": "blk"
+            },
+            {
+              "id": "4",
+              "ctgry": "blk"
+            },
+            {
+              "id": "5",
+              "ctgry": "blk"
+            },
+            {
+              "id": "6",
+              "ctgry": "blk"
+            },
+            {
+              "id": "7",
+              "ctgry": "open"
+            },
+            {
+              "id": "8",
+              "ctgry": "open"
+            },
+            {
+              "id": "9",
+              "ctgry": "blk"
+            },
+            {
+              "id": "10",
+              "ctgry": "open"
+            },
+            {
+              "id": "11",
+              "ctgry": "blk"
+            },
+            {
+              "id": "12",
+              "ctgry": "blk"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "svNo": "8965",
+          "route": "HYD - VJA",
+          "time": "08:30 - 11:30",
+          "duration": "4hrs",
+          "busType": "Super luxury",
+          "via": "cde",
+          "seats": 5,
+          "window": 3,
+          "price": 780,
+          "bpts": [
+            "HYD",
+            "HCD",
+            "ABJ",
+            "BCD",
+            "CDE",
+            "GDH",
+            "MND"
+          ],
+          "dpts": [
+            "HYD",
+            "VJA",
+            "CDE",
+            "ABJ",
+            "BCD",
+            "CFE",
+            "GDH",
+            "MND"
+          ],
+          "seatList": [
+            {
+              "id": "1",
+              "ctgry": "blk"
+            },
+            {
+              "id": "2",
+              "ctgry": "blk"
+            },
+            {
+              "id": "3",
+              "ctgry": "blk"
+            },
+            {
+              "id": "4",
+              "ctgry": "blk"
+            },
+            {
+              "id": "5",
+              "ctgry": "blk"
+            },
+            {
+              "id": "6",
+              "ctgry": "blk"
+            },
+            {
+              "id": "7",
+              "ctgry": "blk"
+            },
+            {
+              "id": "8",
+              "ctgry": "blk"
+            },
+            {
+              "id": "9",
+              "ctgry": "blk"
+            },
+            {
+              "id": "10",
+              "ctgry": "blk"
+            },
+            {
+              "id": "11",
+              "ctgry": "blk"
+            },
+            {
+              "id": "12",
+              "ctgry": "blk"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "svNo": "8123",
+          "route": "HYD - VJA",
+          "time": "11:30 - 14:30",
+          "duration": "3hrs",
+          "busType": "Indra AC",
+          "via": "bcd",
+          "seats": 11,
+          "window": 3,
+          "price": 600,
+          "bpts": [
+            "HYD",
+            "HCD",
+            "ABJ",
+            "BCD",
+            "CDE",
+            "GDH",
+            "MND"
+          ],
+          "dpts": [
+            "HYD",
+            "VJA",
+            "CDE",
+            "ABJ",
+            "BCD",
+            "CFE",
+            "GDH",
+            "MND"
+          ],
+          "seatList": [
+            {
+              "id": "1",
+              "ctgry": "blk"
+            },
+            {
+              "id": "2",
+              "ctgry": "blk"
+            },
+            {
+              "id": "3",
+              "ctgry": "open"
+            },
+            {
+              "id": "4",
+              "ctgry": "blk"
+            },
+            {
+              "id": "5",
+              "ctgry": "open"
+            },
+            {
+              "id": "6",
+              "ctgry": "open"
+            },
+            {
+              "id": "7",
+              "ctgry": "open"
+            },
+            {
+              "id": "8",
+              "ctgry": "open"
+            },
+            {
+              "id": "9",
+              "ctgry": "open"
+            },
+            {
+              "id": "10",
+              "ctgry": "open"
+            },
+            {
+              "id": "11",
+              "ctgry": "open"
+            },
+            {
+              "id": "12",
+              "ctgry": "open"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "svNo": "7598",
+          "route": "HYD - VJA",
+          "time": "13:00 - 16:00",
+          "duration": "3hrs",
+          "busType": "Delux",
+          "via": "njh",
+          "seats": 11,
+          "window": 3,
+          "price": 523,
+          "bpts": [
+            "HYD",
+            "HCD",
+            "ABJ",
+            "BCD",
+            "CDE",
+            "GDH",
+            "MND"
+          ],
+          "dpts": [
+            "HYD",
+            "VJA",
+            "CDE",
+            "ABJ",
+            "BCD",
+            "CFE",
+            "GDH",
+            "MND"
+          ],
+          "seatList": [
+            {
+              "id": "1",
+              "ctgry": "open"
+            },
+            {
+              "id": "2",
+              "ctgry": "blk"
+            },
+            {
+              "id": "3",
+              "ctgry": "open"
+            },
+            {
+              "id": "4",
+              "ctgry": "blk"
+            },
+            {
+              "id": "5",
+              "ctgry": "open"
+            },
+            {
+              "id": "6",
+              "ctgry": "open"
+            },
+            {
+              "id": "7",
+              "ctgry": "open"
+            },
+            {
+              "id": "8",
+              "ctgry": "open"
+            },
+            {
+              "id": "9",
+              "ctgry": "open"
+            },
+            {
+              "id": "10",
+              "ctgry": "open"
+            },
+            {
+              "id": "11",
+              "ctgry": "open"
+            },
+            {
+              "id": "12",
+              "ctgry": "open"
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "svNo": "8556",
+          "route": "HYD - VJA",
+          "time": "20:30 - 3:30",
+          "duration": "3hrs",
+          "busType": "Indra AC",
+          "via": "bcd",
+          "seats": 11,
+          "window": 3,
+          "price": 1322,
+          "bpts": [
+            "HYD",
+            "HCD",
+            "ABJ",
+            "BCD",
+            "CDE",
+            "GDH",
+            "MND"
+          ],
+          "dpts": [
+            "HYD",
+            "VJA",
+            "CDE",
+            "ABJ",
+            "BCD",
+            "CFE",
+            "GDH",
+            "MND"
+          ],
+          "seatList": [
+            {
+              "id": "1",
+              "ctgry": "open"
+            },
+            {
+              "id": "2",
+              "ctgry": "open"
+            },
+            {
+              "id": "3",
+              "ctgry": "open"
+            },
+            {
+              "id": "4",
+              "ctgry": "blk"
+            },
+            {
+              "id": "5",
+              "ctgry": "open"
+            },
+            {
+              "id": "6",
+              "ctgry": "blk"
+            },
+            {
+              "id": "7",
+              "ctgry": "open"
+            },
+            {
+              "id": "8",
+              "ctgry": "open"
+            },
+            {
+              "id": "9",
+              "ctgry": "open"
+            },
+            {
+              "id": "10",
+              "ctgry": "open"
+            },
+            {
+              "id": "11",
+              "ctgry": "open"
+            },
+            {
+              "id": "12",
+              "ctgry": "open"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
